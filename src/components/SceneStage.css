@@ -55,6 +55,12 @@
   left: 18%;
 }
 
+@media (max-width: 768px) {
+  .scene-stage__cloud {
+    display: none;
+  }
+}
+
 .scene-stage__plate {
   position: relative;
   z-index: 1;

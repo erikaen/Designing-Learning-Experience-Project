@@ -54,6 +54,12 @@
   left: 20%;
 }
 
+@media (max-width: 768px) {
+  .landing__cloud {
+    display: none;
+  }
+}
+
 .landing__header {
   position: relative;
   z-index: 1;
