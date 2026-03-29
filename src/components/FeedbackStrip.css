@@ -1,0 +1,19 @@
+.feedback-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.35rem;
+  padding: 0 0.1rem;
+}
+
+.feedback-strip__tag {
+  font-family: var(--font-display);
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  background: #c5e1a5;
+  color: var(--ink);
+  border: 2px solid var(--ink);
+  box-shadow: 2px 2px 0 var(--ink);
+}

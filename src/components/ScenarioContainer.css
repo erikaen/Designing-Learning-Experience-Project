@@ -1,0 +1,16 @@
+.scenario__closing {
+  margin-top: 0.5rem;
+  padding: 1.15rem 1.2rem 1rem;
+  background: #fff;
+  border: 3px solid var(--ink);
+  border-radius: var(--radius-cartoon);
+  box-shadow: var(--shadow-cartoon);
+}
+
+.scenario__closing-text {
+  margin: 0 0 1rem;
+  font-size: 0.92rem;
+  font-weight: 800;
+  line-height: 1.55;
+  color: var(--ink);
+}

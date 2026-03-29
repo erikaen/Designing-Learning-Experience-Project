@@ -1,0 +1,104 @@
+.decision-card {
+  margin-top: 0.5rem;
+}
+
+.decision-card__scene {
+  position: relative;
+  padding: 1rem 1.1rem 0.9rem;
+  background: #fff;
+  border: 3px solid var(--ink);
+  border-radius: var(--radius-cartoon);
+  box-shadow: var(--shadow-cartoon);
+  margin-bottom: 0.75rem;
+}
+
+.decision-card__ribbon {
+  display: inline-block;
+  margin-bottom: 0.45rem;
+  padding: 0.2rem 0.55rem;
+  font-family: var(--font-display);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background: var(--accent-yellow);
+  border: 2px solid var(--ink);
+  border-radius: 8px;
+  box-shadow: 2px 2px 0 var(--ink);
+}
+
+.decision-card__prompt {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--ink);
+  line-height: 1.45;
+}
+
+.decision-card__choices {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.decision-card__choices li {
+  margin: 0;
+}
+
+.decision-card__btn {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+  width: 100%;
+  padding: 0.75rem 0.85rem;
+  text-align: left;
+  border: 3px solid var(--ink);
+  border-radius: var(--radius-btn);
+  background: #fff;
+  color: var(--ink);
+  box-shadow: var(--shadow-cartoon-sm);
+  transition: transform 0.15s, box-shadow 0.15s, background 0.15s;
+}
+
+.decision-card__btn:hover:not(:disabled) {
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 0 var(--ink);
+  background: #fff8e1;
+}
+
+.decision-card__btn:active:not(:disabled) {
+  transform: translate(1px, 1px);
+  box-shadow: 2px 2px 0 var(--ink);
+}
+
+.decision-card__btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.decision-card__num {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--ink);
+  background: var(--choice-accent, #90caf9);
+  border: 2px solid var(--ink);
+  border-radius: 50%;
+  box-shadow: 2px 2px 0 var(--ink);
+}
+
+.decision-card__text {
+  font-size: 0.9rem;
+  font-weight: 800;
+  line-height: 1.4;
+  padding-top: 0.1rem;
+}
